@@ -1,0 +1,19 @@
+2024-04-19 18:45:06.466  INFO 25496 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 21.0.2 with PID 25496 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-19 18:45:06.512  INFO 25496 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-19 18:45:09.611  INFO 25496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-19 18:45:09.637  INFO 25496 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-19 18:45:09.642  INFO 25496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-19 18:45:09.643  INFO 25496 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-19 18:45:09.775  INFO 25496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-19 18:45:09.777  INFO 25496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2991 ms
+2024-04-19 18:45:10.673  INFO 25496 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-19 18:45:10.719  INFO 25496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-19 18:45:10.739  INFO 25496 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 6.293 seconds (process running for 8.629)
+2024-04-19 18:45:10.755  INFO 25496 --- [main] com.yuqn.YuqnBootStartApplication        : 
+----------------------------------------------------------
+	欢迎访问  	http://www.yuqn.top
+	示例程序【dev】环境已启动! 地址如下:
+	Local: 		http://localhost:8080
+	External: 	http://192.168.192.1:8080
+Swagger文档: 	http://192.168.192.1:8080/doc.html
+----------------------------------------------------------

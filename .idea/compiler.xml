@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="yuqn-boot-model-demo" />
+        <module name="yuqn-boot-module-system" />
+        <module name="yuqn-boot-base-core" />
+        <module name="yuqn-boot-start" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="yuqn-boot-main" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yuqn-boot" options="-parameters" />
+      <module name="yuqn-boot-base-core" options="-parameters" />
+      <module name="yuqn-boot-dependencies" options="-parameters" />
+      <module name="yuqn-boot-main" options="-parameters" />
+      <module name="yuqn-boot-model-demo" options="-parameters" />
+      <module name="yuqn-boot-module-system" options="-parameters" />
+      <module name="yuqn-boot-start" options="-parameters" />
+    </option>
+  </component>
+</project>
