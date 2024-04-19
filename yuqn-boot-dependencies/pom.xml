@@ -45,26 +45,26 @@
                 <version>${lombok.versin}</version>
                 <scope>provided</scope>
             </dependency>
-            <!--swagger2-->
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger2</artifactId>
-                <version>${springfox-swagger2.version}</version>
-            </dependency>
+<!--            &lt;!&ndash;swagger2&ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>io.springfox</groupId>-->
+<!--                <artifactId>springfox-swagger2</artifactId>-->
+<!--                <version>${springfox-swagger2.version}</version>-->
+<!--            </dependency>-->
 
-            <!--swagger-ui-->
-            <dependency>
-                <groupId>io.springfox</groupId>
-                <artifactId>springfox-swagger-ui</artifactId>
-                <version>${springfox-swagger-ui.version}</version>
-            </dependency>
+<!--            &lt;!&ndash;swagger-ui&ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>io.springfox</groupId>-->
+<!--                <artifactId>springfox-swagger-ui</artifactId>-->
+<!--                <version>${springfox-swagger-ui.version}</version>-->
+<!--            </dependency>-->
 
-            <!-- swagger接口文档 -->
-            <dependency>
-                <groupId>com.github.xiaoymin</groupId>
-                <artifactId>knife4j-spring-boot-starter</artifactId>
-                <version>${knife4j.version}</version>
-            </dependency>
+<!--            &lt;!&ndash; swagger接口文档 &ndash;&gt;-->
+<!--            <dependency>-->
+<!--                <groupId>com.github.xiaoymin</groupId>-->
+<!--                <artifactId>knife4j-spring-boot-starter</artifactId>-->
+<!--                <version>${knife4j.version}</version>-->
+<!--            </dependency>-->
 
             <!--mybatis-plus-->
 <!--            <dependency>-->
