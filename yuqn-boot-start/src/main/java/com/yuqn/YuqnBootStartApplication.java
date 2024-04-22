@@ -6,6 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.ComponentScans;
 import org.springframework.core.env.Environment;
 
 import java.net.InetAddress;
@@ -14,6 +16,7 @@ import java.net.UnknownHostException;
 @SpringBootApplication
 @ServletComponentScan
 @Slf4j
+@MapperScan("com.yuqn.dao")
 //@EnableSwagger2
 //@EnableKnife4j
 public class YuqnBootStartApplication {

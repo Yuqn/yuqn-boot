@@ -6,11 +6,10 @@
 
     <groupId>com.yuqn</groupId>
     <artifactId>yuqn-boot</artifactId>
-    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
-        <module>yuqn-boot-dependencies</module>
         <module>yuqn-boot-base-core</module>
         <module>yuqn-boot-model-demo</module>
         <module>yuqn-boot-start</module>
@@ -65,5 +64,14 @@
             <version>${mybatis-plus.version}</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
