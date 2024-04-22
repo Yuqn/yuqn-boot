@@ -2,24 +2,27 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-
     <parent>
-        <artifactId>yuqn-boot</artifactId>
+        <artifactId>yuqn-boot-module-system</artifactId>
         <groupId>com.yuqn</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
+    <artifactId>system-controller</artifactId>
+    <packaging>jar</packaging>
 
-    <artifactId>yuqn-boot-module-system</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>system-entity</module>
-        <module>system-dao</module>
-        <module>system-service</module>
-        <module>system-controller</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.yuqn</groupId>
+            <artifactId>system-entity</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yuqn</groupId>
+            <artifactId>system-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>

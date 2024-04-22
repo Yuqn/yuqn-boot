@@ -1,15 +1,16 @@
-2024-04-19 18:45:06.466  INFO 25496 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 21.0.2 with PID 25496 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
-2024-04-19 18:45:06.512  INFO 25496 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
-2024-04-19 18:45:09.611  INFO 25496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-04-19 18:45:09.637  INFO 25496 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
-2024-04-19 18:45:09.642  INFO 25496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-04-19 18:45:09.643  INFO 25496 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
-2024-04-19 18:45:09.775  INFO 25496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-04-19 18:45:09.777  INFO 25496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2991 ms
-2024-04-19 18:45:10.673  INFO 25496 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
-2024-04-19 18:45:10.719  INFO 25496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
-2024-04-19 18:45:10.739  INFO 25496 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 6.293 seconds (process running for 8.629)
-2024-04-19 18:45:10.755  INFO 25496 --- [main] com.yuqn.YuqnBootStartApplication        : 
+2024-04-22 18:33:39.327  INFO 38452 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 38452 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 18:33:39.333  INFO 38452 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 18:33:40.890  WARN 38452 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yuqn]' package. Please check your configuration.
+2024-04-22 18:33:41.731  INFO 38452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 18:33:41.747  INFO 38452 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 18:33:41.751  INFO 38452 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 18:33:41.751  INFO 38452 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 18:33:41.859  INFO 38452 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 18:33:41.862  INFO 38452 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2378 ms
+2024-04-22 18:33:43.162  INFO 38452 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-22 18:33:43.210  INFO 38452 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-22 18:33:43.227  INFO 38452 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 5.234 seconds (process running for 6.88)
+2024-04-22 18:33:43.252  INFO 38452 --- [main] com.yuqn.YuqnBootStartApplication        : 
 ----------------------------------------------------------
 	欢迎访问  	http://www.yuqn.top
 	示例程序【dev】环境已启动! 地址如下:
@@ -17,3 +18,343 @@
 	External: 	http://192.168.192.1:8080
 Swagger文档: 	http://192.168.192.1:8080/doc.html
 ----------------------------------------------------------
+2024-04-22 18:33:48.659  INFO 38452 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1711466849,1711897552,1712143742,1712913099;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-04-22 18:33:48.670  INFO 38452 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 18:33:48.670  INFO 38452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-22 18:33:48.672  INFO 38452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-22 18:36:58.145  INFO 38452 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-04-22 18:37:17.621  INFO 26112 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 26112 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 18:37:17.628  INFO 26112 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 18:37:20.137  WARN 26112 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yuqn]' package. Please check your configuration.
+2024-04-22 18:37:21.572  INFO 26112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 18:37:21.610  INFO 26112 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 18:37:21.616  INFO 26112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 18:37:21.617  INFO 26112 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 18:37:21.767  INFO 26112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 18:37:21.768  INFO 26112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3962 ms
+2024-04-22 18:37:21.930  WARN 26112 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'testService': No qualifying bean of type 'com.yuqn.service.test.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-04-22 18:37:21.938  INFO 26112 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-22 18:37:22.012  INFO 26112 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-22 18:37:22.093 ERROR 26112 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field testService in com.yuqn.controller.test.TestController required a bean of type 'com.yuqn.service.test.TestService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.yuqn.service.test.TestService' in your configuration.
+
+2024-04-22 18:38:33.064  INFO 36288 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 36288 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 18:38:33.074  INFO 36288 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 18:38:35.262  WARN 36288 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yuqn]' package. Please check your configuration.
+2024-04-22 18:38:37.688  INFO 36288 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 18:38:37.707  INFO 36288 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 18:38:37.710  INFO 36288 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 18:38:37.711  INFO 36288 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 18:38:37.830  INFO 36288 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 18:38:37.831  INFO 36288 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4583 ms
+2024-04-22 18:38:37.969  WARN 36288 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'testService': No qualifying bean of type 'com.yuqn.service.test.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2024-04-22 18:38:37.979  INFO 36288 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-04-22 18:38:38.070  INFO 36288 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-04-22 18:38:38.119 ERROR 36288 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field testService in com.yuqn.controller.test.TestController required a bean of type 'com.yuqn.service.test.TestService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.yuqn.service.test.TestService' in your configuration.
+
+2024-04-22 18:42:03.043  INFO 28372 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 28372 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 18:42:03.049  INFO 28372 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 18:42:05.048  WARN 28372 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.yuqn]' package. Please check your configuration.
+2024-04-22 18:42:05.931  INFO 28372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 18:42:05.959  INFO 28372 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 18:42:05.962  INFO 28372 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 18:42:05.963  INFO 28372 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 18:42:06.079  INFO 28372 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 18:42:06.080  INFO 28372 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2741 ms
+2024-04-22 18:42:07.623  INFO 28372 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-22 18:42:07.669  INFO 28372 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-22 18:42:07.695  INFO 28372 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 6.345 seconds (process running for 7.781)
+2024-04-22 18:42:07.722  INFO 28372 --- [main] com.yuqn.YuqnBootStartApplication        : 
+----------------------------------------------------------
+	欢迎访问  	http://www.yuqn.top
+	示例程序【dev】环境已启动! 地址如下:
+	Local: 		http://localhost:8080
+	External: 	http://192.168.192.1:8080
+Swagger文档: 	http://192.168.192.1:8080/doc.html
+----------------------------------------------------------
+2024-04-22 18:42:12.684  INFO 28372 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1711466849,1711897552,1712143742,1712913099;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-04-22 18:42:12.698  INFO 28372 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 18:42:12.699  INFO 28372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-22 18:42:12.700  INFO 28372 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-22 18:50:24.414  INFO 28372 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-04-22 22:22:08.637  INFO 33852 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 33852 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 22:22:08.661  INFO 33852 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 22:22:12.926  INFO 33852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 22:22:12.947  INFO 33852 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:22:12.951  INFO 33852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 22:22:12.952  INFO 33852 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 22:22:13.079  INFO 33852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 22:22:13.080  INFO 33852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4240 ms
+2024-04-22 22:22:14.872  INFO 33852 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:22:14.914  INFO 33852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-22 22:22:14.935  INFO 33852 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 8.821 seconds (process running for 13.819)
+2024-04-22 22:22:14.968  INFO 33852 --- [main] com.yuqn.YuqnBootStartApplication        : 
+----------------------------------------------------------
+	欢迎访问  	http://www.yuqn.top
+	示例程序【dev】环境已启动! 地址如下:
+	Local: 		http://localhost:8080
+	External: 	http://192.168.192.1:8080
+Swagger文档: 	http://192.168.192.1:8080/doc.html
+----------------------------------------------------------
+2024-04-22 22:22:20.381  INFO 33852 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1711466849,1711897552,1712143742,1712913099;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-04-22 22:22:20.398  INFO 33852 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 22:22:20.399  INFO 33852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-22 22:22:20.400  INFO 33852 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-22 22:22:20.508 ERROR 33852 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.yuqn.dao.test.TestMapper.selectList] with root cause
+
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.yuqn.dao.test.TestMapper.selectList
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.<init>(MybatisMapperMethod.java:50)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.lambda$cachedInvoker$0(MybatisMapperProxy.java:111)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at com.baomidou.mybatisplus.core.toolkit.CollectionUtils.computeIfAbsent(CollectionUtils.java:157)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.cachedInvoker(MybatisMapperProxy.java:98)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy66.selectList(Unknown Source)
+	at com.yuqn.service.test.impl.TestServiceImpl.getMessage(TestServiceImpl.java:23)
+	at com.yuqn.controller.test.TestController.getmes(TestController.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2024-04-22 22:24:48.046  INFO 33852 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-04-22 22:25:14.230  INFO 38728 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 38728 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 22:25:14.235  INFO 38728 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 22:25:16.881  INFO 38728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 22:25:16.900  INFO 38728 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:25:16.903  INFO 38728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 22:25:16.903  INFO 38728 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 22:25:17.036  INFO 38728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 22:25:17.039  INFO 38728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2600 ms
+2024-04-22 22:25:18.934  INFO 38728 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:25:18.987  INFO 38728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-22 22:25:19.004  INFO 38728 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 6.312 seconds (process running for 8.36)
+2024-04-22 22:25:19.027  INFO 38728 --- [main] com.yuqn.YuqnBootStartApplication        : 
+----------------------------------------------------------
+	欢迎访问  	http://www.yuqn.top
+	示例程序【dev】环境已启动! 地址如下:
+	Local: 		http://localhost:8080
+	External: 	http://192.168.192.1:8080
+Swagger文档: 	http://192.168.192.1:8080/doc.html
+----------------------------------------------------------
+2024-04-22 22:25:23.233  INFO 38728 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1711466849,1711897552,1712143742,1712913099;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-04-22 22:25:23.249  INFO 38728 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 22:25:23.250  INFO 38728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-22 22:25:23.252  INFO 38728 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-22 22:25:23.663  INFO 38728 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-22 22:29:26.610  INFO 38728 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-22 22:29:26.668  INFO 38728 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-04-22 22:30:53.906  INFO 34032 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 34032 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 22:30:53.911  INFO 34032 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 22:30:57.061  INFO 34032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 22:30:57.086  INFO 34032 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:30:57.094  INFO 34032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 22:30:57.095  INFO 34032 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 22:30:57.290  INFO 34032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 22:30:57.291  INFO 34032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3140 ms
+2024-04-22 22:30:59.631  INFO 34032 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:30:59.685  INFO 34032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-22 22:30:59.706  INFO 34032 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 7.991 seconds (process running for 11.278)
+2024-04-22 22:30:59.733  INFO 34032 --- [main] com.yuqn.YuqnBootStartApplication        : 
+----------------------------------------------------------
+	欢迎访问  	http://www.yuqn.top
+	示例程序【dev】环境已启动! 地址如下:
+	Local: 		http://localhost:8080
+	External: 	http://192.168.192.1:8080
+Swagger文档: 	http://192.168.192.1:8080/doc.html
+----------------------------------------------------------
+2024-04-22 22:31:10.063  INFO 34032 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1711466849,1711897552,1712143742,1712913099;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-04-22 22:31:10.076  INFO 34032 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 22:31:10.077  INFO 34032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-22 22:31:10.079  INFO 34032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-22 22:31:10.358  INFO 34032 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-22 22:32:42.022  INFO 34032 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-22 22:32:42.035  INFO 34032 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-04-22 22:46:41.973  INFO 38824 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 38824 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 22:46:41.980  INFO 38824 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 22:46:44.730  INFO 38824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 22:46:44.747  INFO 38824 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:46:44.750  INFO 38824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 22:46:44.750  INFO 38824 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 22:46:44.866  INFO 38824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 22:46:44.867  INFO 38824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2703 ms
+2024-04-22 22:46:46.882  INFO 38824 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:46:46.932  INFO 38824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-22 22:46:46.951  INFO 38824 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 7.079 seconds (process running for 10.104)
+2024-04-22 22:46:46.973  INFO 38824 --- [main] com.yuqn.YuqnBootStartApplication        : 
+----------------------------------------------------------
+	欢迎访问  	http://www.yuqn.top
+	示例程序【dev】环境已启动! 地址如下:
+	Local: 		http://localhost:8080
+	External: 	http://192.168.192.1:8080
+Swagger文档: 	http://192.168.192.1:8080/doc.html
+----------------------------------------------------------
+2024-04-22 22:48:35.468  INFO 38824 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2024-04-22 22:49:11.031  INFO 31844 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 31844 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 22:49:11.036  INFO 31844 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 22:49:13.622  INFO 31844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 22:49:13.641  INFO 31844 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:49:13.643  INFO 31844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 22:49:13.644  INFO 31844 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 22:49:13.770  INFO 31844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 22:49:13.771  INFO 31844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2564 ms
+2024-04-22 22:49:15.569  INFO 31844 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:49:15.617  INFO 31844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-22 22:49:15.635  INFO 31844 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 6.349 seconds (process running for 8.62)
+2024-04-22 22:49:15.657  INFO 31844 --- [main] com.yuqn.YuqnBootStartApplication        : 
+----------------------------------------------------------
+	欢迎访问  	http://www.yuqn.top
+	示例程序【dev】环境已启动! 地址如下:
+	Local: 		http://localhost:8080
+	External: 	http://192.168.192.1:8080
+Swagger文档: 	http://192.168.192.1:8080/doc.html
+----------------------------------------------------------
+2024-04-22 22:49:20.849  INFO 31844 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1711466849,1711897552,1712143742,1712913099;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-04-22 22:49:20.866  INFO 31844 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 22:49:20.866  INFO 31844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-22 22:49:20.868  INFO 31844 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-22 22:49:31.792  INFO 31844 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-22 22:49:41.216  INFO 31844 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-22 22:49:41.227  INFO 31844 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-04-22 22:56:40.456  INFO 14672 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 14672 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 22:56:40.461  INFO 14672 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 22:56:43.514  INFO 14672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 22:56:43.537  INFO 14672 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:56:43.541  INFO 14672 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 22:56:43.541  INFO 14672 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 22:56:43.703  INFO 14672 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 22:56:43.704  INFO 14672 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3016 ms
+2024-04-22 22:56:45.914  INFO 14672 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:56:45.955  INFO 14672 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-22 22:56:45.978  INFO 14672 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 7.279 seconds (process running for 9.846)
+2024-04-22 22:56:46.010  INFO 14672 --- [main] com.yuqn.YuqnBootStartApplication        : 
+----------------------------------------------------------
+	欢迎访问  	http://www.yuqn.top
+	示例程序【dev】环境已启动! 地址如下:
+	Local: 		http://localhost:8080
+	External: 	http://192.168.192.1:8080
+Swagger文档: 	http://192.168.192.1:8080/doc.html
+----------------------------------------------------------
+2024-04-22 22:56:50.782  INFO 14672 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1711466849,1711897552,1712143742,1712913099;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-04-22 22:56:50.798  INFO 14672 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 22:56:50.798  INFO 14672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-22 22:56:50.800  INFO 14672 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-04-22 22:56:50.976  INFO 14672 --- [http-nio-8080-exec-1] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-22 22:58:48.868  INFO 14672 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-22 22:58:48.879  INFO 14672 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-04-22 22:59:49.223  INFO 36356 --- [main] com.yuqn.YuqnBootStartApplication        : Starting YuqnBootStartApplication using Java 17.0.2 with PID 36356 (E:\myJavaProject\yuqn-boot\yuqn-boot-start\target\classes started by yuqn in E:\myJavaProject\yuqn-boot)
+2024-04-22 22:59:49.228  INFO 36356 --- [main] com.yuqn.YuqnBootStartApplication        : The following 1 profile is active: "dev"
+2024-04-22 22:59:52.065  INFO 36356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-22 22:59:52.086  INFO 36356 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:59:52.092  INFO 36356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-22 22:59:52.093  INFO 36356 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-22 22:59:52.224  INFO 36356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-22 22:59:52.225  INFO 36356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2814 ms
+2024-04-22 22:59:54.077  INFO 36356 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2024-04-22 22:59:54.114  INFO 36356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-22 22:59:54.132  INFO 36356 --- [main] com.yuqn.YuqnBootStartApplication        : Started YuqnBootStartApplication in 7.566 seconds (process running for 10.221)
+2024-04-22 22:59:54.155  INFO 36356 --- [main] com.yuqn.YuqnBootStartApplication        : 
+----------------------------------------------------------
+	欢迎访问  	http://www.yuqn.top
+	示例程序【dev】环境已启动! 地址如下:
+	Local: 		http://localhost:8080
+	External: 	http://192.168.192.1:8080
+Swagger文档: 	http://192.168.192.1:8080/doc.html
+----------------------------------------------------------
+2024-04-22 23:00:05.599  INFO 36356 --- [http-nio-8080-exec-2] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_0febd9e3cacb3f627ddac64d52caac39=1711466849,1711897552,1712143742,1712913099;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-04-22 23:00:05.616  INFO 36356 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-22 23:00:05.617  INFO 36356 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-22 23:00:05.621  INFO 36356 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-04-22 23:00:05.882  INFO 36356 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-04-22 23:00:38.181  INFO 36356 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-04-22 23:00:38.192  INFO 36356 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
