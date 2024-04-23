@@ -1,12 +1,14 @@
 server:
   port: 8080
 spring:
+  #数据库连接配置
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3307/yuqn-boot?characterEncoding=utf-8&useSSL=false
     username: root
     password: idiot_Yuqn@123
+    #druid配置
     druid:
       #初始化大小
       initial-size: 5
@@ -29,6 +31,12 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
+  #redis配置
+  data:
+    redis:
+      port: 6379
+      host: localhost
+      database: 0
 #mybatisplus配置
 mybatis-plus:
   configuration:
