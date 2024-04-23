@@ -1,5 +1,6 @@
 package com.yuqn.controller.test;
 
+import cn.hutool.core.date.DateUtil;
 import com.yuqn.entity.test.YuqnTest;
 import com.yuqn.service.test.TestService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -33,6 +34,13 @@ public class TestController {
     @GetMapping("/getmesforxml")
     @Operation(summary = "获取xx")
     public List<YuqnTest> getmesforxml(){
+        return testService.getAllMessage();
+    }
+
+    @GetMapping("/getDate")
+    @Operation(summary = "获取xx")
+    public List<YuqnTest> getDate(){
+        System.out.println(DateUtil.today());
         return testService.getAllMessage();
     }
 }

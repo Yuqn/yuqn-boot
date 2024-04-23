@@ -30,7 +30,21 @@
         <mysql-connector-java.version>8.0.33</mysql-connector-java.version>
         <druid.version>1.2.21</druid.version>
         <mybatis-plus.version>3.5.5</mybatis-plus.version>
+        <hutool.version>5.8.27</hutool.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-bom</artifactId>
+                <version>${hutool.version}</version>
+                <type>pom</type>
+                <!-- 注意这里是import -->
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
         <dependency>
