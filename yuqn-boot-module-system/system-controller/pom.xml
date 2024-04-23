@@ -27,6 +27,10 @@
             <artifactId>yuqn-boot-base-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-core</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
