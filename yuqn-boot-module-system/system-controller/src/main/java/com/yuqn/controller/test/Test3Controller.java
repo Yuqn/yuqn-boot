@@ -1,5 +1,6 @@
 package com.yuqn.controller.test;
 
+import com.yuqn.vo.Result;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,6 +11,6 @@ public class Test3Controller {
 
     @GetMapping("/getmesforxml")
     public String getmes(){
-        return "ok";
+        return Result.ok("成功").toString();
     }
 }
