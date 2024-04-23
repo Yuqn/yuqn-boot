@@ -2,6 +2,8 @@ package com.yuqn.controller.test;
 
 import com.yuqn.entity.test.YuqnTest;
 import com.yuqn.service.test.TestService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/test")
+@Tag(name = "test接口")
 public class TestController {
 
     private TestService testService;
@@ -21,12 +24,14 @@ public class TestController {
     }
 
     @GetMapping("/getmessage")
+    @Operation(summary = "获取message")
     public String getmes(){
         String mes = testService.getMessage();
         return mes;
     }
 
     @GetMapping("/getmesforxml")
+    @Operation(summary = "获取xx")
     public List<YuqnTest> getmesforxml(){
         return testService.getAllMessage();
     }
