@@ -14,6 +14,7 @@
         <module>yuqn-boot-model-demo</module>
         <module>yuqn-boot-start</module>
         <module>yuqn-boot-module-system</module>
+        <module>yuqn-boot-security-workflow</module>
     </modules>
 
     <parent>
@@ -30,8 +31,20 @@
         <mysql-connector-java.version>8.0.33</mysql-connector-java.version>
         <druid.version>1.2.21</druid.version>
         <mybatis-plus.version>3.5.5</mybatis-plus.version>
+        <knife4j.version>4.5.0</knife4j.version>
         <hutool.version>5.8.27</hutool.version>
+        <jjwt.version>0.9.1</jjwt.version>
+        <servlet.version>4.0.1</servlet.version>
+        <junit.version>5.8.1</junit.version>
+        <jaxbapi.version>2.3.0</jaxbapi.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>activiti-releases</id>
+            <url>https://artifacts.alfresco.com/nexus/content/repositories/activiti-releases</url>
+        </repository>
+    </repositories>
 
     <dependencyManagement>
         <dependencies>
@@ -81,13 +94,50 @@
         <dependency>
             <groupId>com.github.xiaoymin</groupId>
             <artifactId>knife4j-openapi3-jakarta-spring-boot-starter</artifactId>
-            <version>4.5.0</version>
+            <version>${knife4j.version}</version>
         </dependency>
         <!-- redis依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
+        <!-- spring-security 依赖-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.activiti</groupId>-->
+<!--            <artifactId>activiti-spring-boot-starter</artifactId>-->
+<!--            <version>8.1.0</version>-->
+<!--        </dependency>-->
+        <!-- jwt 依赖-->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>${jjwt.version}</version>
+        </dependency>
+        <!--引入servlet驱动的依赖-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- 添加JUnit依赖 -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- 添加jaxb-api依赖 -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>${jaxbapi.version}</version>
+        </dependency>
+
 
     </dependencies>
 

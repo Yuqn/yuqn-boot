@@ -16,7 +16,7 @@ import java.net.UnknownHostException;
 @SpringBootApplication
 @ServletComponentScan
 @Slf4j
-@MapperScan("com.yuqn.dao")
+@MapperScan({"com.yuqn.dao","com.yuqn.mapper"})
 //@EnableSwagger2
 //@EnableKnife4j
 public class YuqnBootStartApplication {
