@@ -84,4 +84,8 @@ public class User implements Serializable {
      * 删除标志（0代表未删除，1代表已删除）
      */
     private Integer delFlag;
+    /**
+     * 整合activiti后，需要 ROLE_ACTIVITI_USER 或者 ROLE_ACTIVITI_ADMIN 权限才能使用提供的接口操作工作流
+     */
+    private String roles;
 }

@@ -47,9 +47,9 @@ public class UserDetailsService implements org.springframework.security.core.use
         }
 
         // 查询对应权限
-//         List<String> list = new ArrayList<>(Arrays.asList("test","admin"));
-//        System.out.println("menuMapper.selectList(null) = " + menuMapper.selectList(null));
+        // List<String> list = new ArrayList<>(Arrays.asList("test","admin"));
         List<String> list = menuMapper.selectPermsByUserId(user.getId());
+        list.add(user.getRoles());
         System.out.println("list = " + list);
 
         // 将user封装到 LoginUser 返回，security 会根据 LoginUser 获取账号密码进行校验，数据库中的密码需要使用{noop}表示明文保存的，不然会报错，因为security使用的加密校验

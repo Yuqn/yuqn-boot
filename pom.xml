@@ -37,6 +37,7 @@
         <servlet.version>4.0.1</servlet.version>
         <junit.version>5.8.1</junit.version>
         <jaxbapi.version>2.3.0</jaxbapi.version>
+        <activiti.version>8.1.0</activiti.version>
     </properties>
 
     <repositories>
@@ -106,11 +107,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.activiti</groupId>-->
-<!--            <artifactId>activiti-spring-boot-starter</artifactId>-->
-<!--            <version>8.1.0</version>-->
-<!--        </dependency>-->
+        <!-- activiti 依赖-->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring-boot-starter</artifactId>
+            <version>${activiti.version}</version>
+        </dependency>
         <!-- jwt 依赖-->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
@@ -137,8 +139,6 @@
             <artifactId>jaxb-api</artifactId>
             <version>${jaxbapi.version}</version>
         </dependency>
-
-
     </dependencies>
 
     <build>

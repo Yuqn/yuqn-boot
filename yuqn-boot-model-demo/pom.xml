@@ -17,6 +17,11 @@
             <artifactId>yuqn-boot-base-core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.yuqn</groupId>
+            <artifactId>yuqn-boot-security-workflow</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
