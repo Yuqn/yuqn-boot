@@ -1,6 +1,7 @@
 package com.yuqn.controller.redis;
 
 import com.yuqn.entity.RedisObj;
+import com.yuqn.utils.ActivitiCache;
 import com.yuqn.utils.RedisCache;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
