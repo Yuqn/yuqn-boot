@@ -1,5 +1,6 @@
 package com.yuqn.controller.activiti;
 
+import com.yuqn.entity.Evection;
 import com.yuqn.utils.ActivitiCache;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -15,9 +16,7 @@ import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
@@ -39,11 +38,18 @@ public class ActivitiDemo {
     /**
      * 启动任务
      */
-    @GetMapping("/startProcess")
+    @PostMapping("/startProcess")
     @Operation(summary = "启动实例")
     @PreAuthorize("@ex.hasAuthority('system:test:list')")
-    public void startProcess(){
-        ProcessInstance processInstance = activitiCache.startProcess("evection");
+    public void startProcess(@RequestParam("key") String key){
+        Map<String,Object> map = new HashMap<>();
+        map.put("assignee0","evection_yuqn_0");
+        map.put("assignee1","evection_yuqn_1");
+        map.put("assignee2","evection_yuqn_2");
+        Evection evection = new Evection();
+        evection.setNum(2d);
+        map.put("evection",evection);
+        ProcessInstance processInstance = activitiCache.startProcess(key,map);
         if (Objects.nonNull(processInstance)){
             System.out.println("启动成功");
             System.out.println("流程定义id：" + processInstance.getProcessDefinitionId());
@@ -55,11 +61,11 @@ public class ActivitiDemo {
     /**
      * 完成个人任务
      */
-    @GetMapping("/completTask")
+    @PostMapping("/completTask")
     @Operation(summary = "完成任务")
     @PreAuthorize("@ex.hasAuthority('system:test:list')")
-    public void completTask(){
-        boolean isok = activitiCache.completTask("evection","evection_yuqn_03");
+    public void completTask(@RequestParam("key") String key,@RequestParam("assignee") String assignee){
+        boolean isok = activitiCache.completTask(key,assignee);
         if (isok){
             System.out.println("任务完成");
         }
