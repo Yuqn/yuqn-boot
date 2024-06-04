@@ -38,6 +38,7 @@
         <junit.version>5.8.1</junit.version>
         <jaxbapi.version>2.3.0</jaxbapi.version>
         <activiti.version>8.1.0</activiti.version>
+        <commons.io.version>2.12.0</commons.io.version>
     </properties>
 
     <repositories>
@@ -138,6 +139,12 @@
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
             <version>${jaxbapi.version}</version>
+        </dependency>
+        <!-- 添加commons-io依赖 -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons.io.version}</version>
         </dependency>
     </dependencies>
 
