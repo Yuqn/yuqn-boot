@@ -63,7 +63,7 @@ public class LoginServiceImpl implements LoginService {
         // 获取securitycontextholder中的用户id
         UsernamePasswordAuthenticationToken authentication = (UsernamePasswordAuthenticationToken) SecurityContextHolder.getContext().getAuthentication();
         LoginUser loginUser = (LoginUser) authentication.getPrincipal();
-        Long userid = loginUser.getUser().getId();
+        String userid = loginUser.getUser().getId();
         // 删除redis中的值
         redisCache.deleteObject("login:" + userid);
         return Result.OK("注销成功");

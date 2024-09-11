@@ -21,7 +21,7 @@ public class Menu implements Serializable {
     private static final long serialVersionUID = -54979041104113736L;
 
     @TableId
-    private Long id;
+    private String id;
     /**
      * 菜单名
      */
